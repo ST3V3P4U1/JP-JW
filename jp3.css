@@ -1,0 +1,107 @@
+body {
+  font-family: arial;
+  background-color:rgb(18, 18, 18);
+  color:aliceblue; /* yes aliceblue is better than white */
+}
+
+h1, h2 {
+  color:#841301;
+}
+
+img {
+  width:100px;
+  display: block;
+  margin: 0 auto;
+}
+
+li {
+  color:#708090;
+}
+
+.logo {
+  width:250px;
+}
+
+.chonk {
+  width: 100px;
+  margin:25px;
+  transition: width 0.5s ease-in-out;
+}
+
+.chonk:hover {
+  width: 125px;
+}
+
+a {
+  text-decoration:none;
+  transition: width 0.5s ease-in-out;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+a:not(:hover) {
+  text-decoration: none;
+}
+img {
+  width:100px;
+  text-align:center;
+}
+nav{
+  background-color: black;
+  text-align:center;
+  width:100%
+}
+
+nav {
+  display: flex; /* Display the nav as a flex container */
+  justify-content: space-around; /* Space the items evenly */
+}
+
+nav a {
+  display: inline-block; /* Display each anchor as an inline-block element */
+}
+
+nav img{
+  border-radius:25px;
+}
+
+
+
+.fixed-bottom a {
+  position: absolute;
+}
+
+.fixed-bottom a:first-child {
+  left: 10px;
+}
+
+.fixed-bottom a:last-child {
+  right: 10px;
+}
+
+iframe {
+  margin-bottom: 75px;
+}
+
+#arrow {
+  width: 30px;
+  margin:5px;
+  transition: width 0.5s ease-in-out;
+}
+
+#arrow:hover{
+  width:50px;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Adjust height as needed */
+  background-color: rgb(18,18,18);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
